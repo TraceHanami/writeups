@@ -27,7 +27,7 @@ Welcome back, hackers. Today we’re leaping through time with a challenge inspi
 > In Tokyo Revengers, the future changes when the past is rearranged. Look beyond the surface. The image knows more than it shows.
 > 
 
-![image.png](attachment:dd79bda5-e69c-4a50-bf68-f8ad9e68ab90:image.png)
+![Original Challenge Image](image1.png)
 
 ## Step-by-Step Walkthrough
 
@@ -37,7 +37,7 @@ At first glance, it’s a standard manga panel. But if you look at the left-hand
 
 `Hsro_otf3hs0__w]e__fvro{n1_ntt0.ryp_iymfdpsghhreoroc...cr__t3431'uoft_t151rrn_d`
 
-![image.png](attachment:dce2d383-aa44-4e25-9db9-9ffd5fb864fc:image.png)
+![Margin Text](image-1.png)
 
 ### Step 2 — Identifying the "Rearrangement"
 
@@ -67,7 +67,7 @@ When we hit **Decrypt**, the "rearranged" characters fall back into their origin
 The tool reveals the secret message:
 `Here's_your_proof_of_victory..._tomctf{fr13nd_5h1p_1s_str0ng3r_th4n_th3_w0r1d}`
 
-![Screenshot 2026-02-23 121050.png](attachment:3cd6fab9-3e1f-4e14-9bff-80ed3e5b53f3:Screenshot_2026-02-23_121050.png)
+![Decryption Output](result.png)
 
 ## Final Thoughts
 
