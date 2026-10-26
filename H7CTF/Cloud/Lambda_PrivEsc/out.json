@@ -1,0 +1,1 @@
+{"message": "function executed; the execution role's environment credentials follow", "AWS_ACCESS_KEY_ID": "ASIA041BF847FB95DA76", "AWS_SECRET_ACCESS_KEY": "sk/WcfKStooj2srmMT8qgA3gd-sGhOHYlJ0", "AWS_SESSION_TOKEN": "tok/gOepZoOKZ9Tn78xMJzrrHTmPA4yR3qgv_LXILfDxtozwEbEBwPURFeUp-Gyca2e5", "role": "arn:aws:iam::111111111111:role/ci-runner-role"}

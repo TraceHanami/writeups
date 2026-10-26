@@ -1,0 +1,276 @@
+chall.pyc (Python 3.10)
+[Code]
+    File Name: chall.py
+    Object Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Locals: 0
+    Stack Size: 5
+    Flags: 0x00000040 (CO_NOFREE)
+    [Names]
+        'string'
+        'hashlib'
+        'sha256'
+        't9text'
+        't9'
+        'nope'
+        'input'
+        'user_input'
+        'len'
+        'startswith'
+        'endswith'
+        'words'
+        'split'
+        'w'
+        'all'
+        'join'
+        'get_touchtone'
+        'encode'
+        'hexdigest'
+        'print'
+    [Var Names]
+    [Free Vars]
+    [Cell Vars]
+    [Constants]
+        0
+        None
+        (
+            'sha256'
+        )
+        (
+            't9'
+        )
+        [Code]
+            File Name: chall.py
+            Object Name: nope
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 0
+            Stack Size: 2
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'print'
+                'exit'
+            [Var Names]
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+                None
+                'nope! ಠ_ಠ'
+                0
+            [Disassembly]
+                0       LOAD_GLOBAL                     0: print
+                2       LOAD_CONST                      1: 'nope! ಠ_ಠ'
+                4       CALL_FUNCTION                   1
+                6       POP_TOP                         
+                8       LOAD_GLOBAL                     1: exit
+                10      LOAD_CONST                      2: 0
+                12      CALL_FUNCTION                   1
+                14      POP_TOP                         
+                16      LOAD_CONST                      0: None
+                18      RETURN_VALUE                    
+        'nope'
+        'pls text me the flag :P\n> '
+        81
+        'FortID{'
+        '}'
+        '_'
+        [Code]
+            File Name: chall.py
+            Object Name: <listcomp>
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 2
+            Stack Size: 4
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'string'
+                'ascii_lowercase'
+            [Var Names]
+                '.0'
+                'c'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+            [Disassembly]
+                0       BUILD_LIST                      0
+                2       LOAD_FAST                       0: .0
+                4       FOR_ITER                        7 (to 20)
+                6       STORE_FAST                      1: c
+                8       LOAD_FAST                       1: c
+                10      LOAD_GLOBAL                     0: string
+                12      LOAD_ATTR                       1: ascii_lowercase
+                14      CONTAINS_OP                     0 (in)
+                16      LIST_APPEND                     2
+                18      JUMP_ABSOLUTE                   2 (to 4)
+                20      RETURN_VALUE                    
+        '<listcomp>'
+        [Code]
+            File Name: chall.py
+            Object Name: <listcomp>
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 2
+            Stack Size: 4
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'string'
+                'digits'
+            [Var Names]
+                '.0'
+                'c'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+            [Disassembly]
+                0       BUILD_LIST                      0
+                2       LOAD_FAST                       0: .0
+                4       FOR_ITER                        7 (to 20)
+                6       STORE_FAST                      1: c
+                8       LOAD_FAST                       1: c
+                10      LOAD_GLOBAL                     0: string
+                12      LOAD_ATTR                       1: digits
+                14      CONTAINS_OP                     0 (in)
+                16      LIST_APPEND                     2
+                18      JUMP_ABSOLUTE                   2 (to 4)
+                20      RETURN_VALUE                    
+        '-'
+        -1
+        '33696-7383-3824-4-9465664238-36-32347-878267-8766-348-55487-74-0133-24566'
+        'utf-8'
+        '3576c495f89236515fbbfbfb519dceb9899122e92460d418d2ce37a1ff357e0c'
+        '*\\0/* I knew you could do it! ^5'
+    [Disassembly]
+        0       LOAD_CONST                      0: 0
+        2       LOAD_CONST                      1: None
+        4       IMPORT_NAME                     0: string
+        6       STORE_NAME                      0: string
+        8       LOAD_CONST                      0: 0
+        10      LOAD_CONST                      2: ('sha256',)
+        12      IMPORT_NAME                     1: hashlib
+        14      IMPORT_FROM                     2: sha256
+        16      STORE_NAME                      2: sha256
+        18      POP_TOP                         
+        20      LOAD_CONST                      0: 0
+        22      LOAD_CONST                      3: ('t9',)
+        24      IMPORT_NAME                     3: t9text
+        26      IMPORT_FROM                     4: t9
+        28      STORE_NAME                      4: t9
+        30      POP_TOP                         
+        32      LOAD_CONST                      4: <CODE> nope
+        34      LOAD_CONST                      5: 'nope'
+        36      MAKE_FUNCTION                   0
+        38      STORE_NAME                      5: nope
+        40      LOAD_NAME                       6: input
+        42      LOAD_CONST                      6: 'pls text me the flag :P\n> '
+        44      CALL_FUNCTION                   1
+        46      STORE_NAME                      7: user_input
+        48      LOAD_NAME                       8: len
+        50      LOAD_NAME                       7: user_input
+        52      CALL_FUNCTION                   1
+        54      LOAD_CONST                      7: 81
+        56      COMPARE_OP                      3 (!=)
+        58      POP_JUMP_IF_FALSE               33 (to 66)
+        60      LOAD_NAME                       5: nope
+        62      CALL_FUNCTION                   0
+        64      POP_TOP                         
+        66      LOAD_NAME                       7: user_input
+        68      LOAD_METHOD                     9: startswith
+        70      LOAD_CONST                      8: 'FortID{'
+        72      CALL_METHOD                     1
+        74      POP_JUMP_IF_FALSE               43 (to 86)
+        76      LOAD_NAME                       7: user_input
+        78      LOAD_METHOD                     10: endswith
+        80      LOAD_CONST                      9: '}'
+        82      CALL_METHOD                     1
+        84      POP_JUMP_IF_TRUE                46 (to 92)
+        86      LOAD_NAME                       5: nope
+        88      CALL_FUNCTION                   0
+        90      POP_TOP                         
+        92      LOAD_NAME                       7: user_input
+        94      LOAD_NAME                       8: len
+        96      LOAD_CONST                      8: 'FortID{'
+        98      CALL_FUNCTION                   1
+        100     LOAD_NAME                       8: len
+        102     LOAD_CONST                      9: '}'
+        104     CALL_FUNCTION                   1
+        106     UNARY_NEGATIVE                  
+        108     BUILD_SLICE                     2
+        110     BINARY_SUBSCR                   
+        112     STORE_NAME                      11: words
+        114     LOAD_NAME                       11: words
+        116     LOAD_METHOD                     12: split
+        118     LOAD_CONST                      10: '_'
+        120     CALL_METHOD                     1
+        122     GET_ITER                        
+        124     FOR_ITER                        23 (to 172)
+        126     STORE_NAME                      13: w
+        128     LOAD_NAME                       14: all
+        130     LOAD_CONST                      11: <CODE> <listcomp>
+        132     LOAD_CONST                      12: '<listcomp>'
+        134     MAKE_FUNCTION                   0
+        136     LOAD_NAME                       13: w
+        138     GET_ITER                        
+        140     CALL_FUNCTION                   1
+        142     CALL_FUNCTION                   1
+        144     POP_JUMP_IF_TRUE                85 (to 170)
+        146     LOAD_NAME                       14: all
+        148     LOAD_CONST                      13: <CODE> <listcomp>
+        150     LOAD_CONST                      12: '<listcomp>'
+        152     MAKE_FUNCTION                   0
+        154     LOAD_NAME                       13: w
+        156     GET_ITER                        
+        158     CALL_FUNCTION                   1
+        160     CALL_FUNCTION                   1
+        162     POP_JUMP_IF_TRUE                85 (to 170)
+        164     LOAD_NAME                       5: nope
+        166     CALL_FUNCTION                   0
+        168     POP_TOP                         
+        170     JUMP_ABSOLUTE                   62 (to 124)
+        172     LOAD_CONST                      14: '-'
+        174     LOAD_METHOD                     15: join
+        176     LOAD_NAME                       11: words
+        178     LOAD_METHOD                     12: split
+        180     LOAD_CONST                      10: '_'
+        182     CALL_METHOD                     1
+        184     CALL_METHOD                     1
+        186     STORE_NAME                      11: words
+        188     LOAD_NAME                       4: t9
+        190     LOAD_METHOD                     16: get_touchtone
+        192     LOAD_NAME                       11: words
+        194     CALL_METHOD                     1
+        196     LOAD_CONST                      1: None
+        198     LOAD_CONST                      1: None
+        200     LOAD_CONST                      15: -1
+        202     BUILD_SLICE                     3
+        204     BINARY_SUBSCR                   
+        206     LOAD_CONST                      16: '33696-7383-3824-4-9465664238-36-32347-878267-8766-348-55487-74-0133-24566'
+        208     COMPARE_OP                      3 (!=)
+        210     POP_JUMP_IF_FALSE               109 (to 218)
+        212     LOAD_NAME                       5: nope
+        214     CALL_FUNCTION                   0
+        216     POP_TOP                         
+        218     LOAD_NAME                       2: sha256
+        220     LOAD_NAME                       7: user_input
+        222     LOAD_METHOD                     17: encode
+        224     LOAD_CONST                      17: 'utf-8'
+        226     CALL_METHOD                     1
+        228     CALL_FUNCTION                   1
+        230     LOAD_METHOD                     18: hexdigest
+        232     CALL_METHOD                     0
+        234     LOAD_CONST                      18: '3576c495f89236515fbbfbfb519dceb9899122e92460d418d2ce37a1ff357e0c'
+        236     COMPARE_OP                      3 (!=)
+        238     POP_JUMP_IF_FALSE               123 (to 246)
+        240     LOAD_NAME                       5: nope
+        242     CALL_FUNCTION                   0
+        244     POP_TOP                         
+        246     LOAD_NAME                       19: print
+        248     LOAD_CONST                      19: '*\\0/* I knew you could do it! ^5'
+        250     CALL_FUNCTION                   1
+        252     POP_TOP                         
+        254     LOAD_CONST                      1: None
+        256     RETURN_VALUE                    

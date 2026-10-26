@@ -1,0 +1,4 @@
+Welcome, analyst.
+H7CTF{d6cc592f5a2f3db80718}
+Onboarding: our deploys run through a Lambda that executes as ci-runner-role.
+Check what YOU can do (get your inline policy) and what the runner can do.
